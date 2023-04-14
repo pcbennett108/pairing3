@@ -6,3 +6,10 @@ numbers.each do |number|
     end
 end
 # Comment
+puts "================================="
+
+numbers.each do |number|
+    if number < 60
+        puts number
+    end
+end
